@@ -1,6 +1,6 @@
 <script setup>
-import HelloWorld from './components/header.vue'
-import NavBar from './components/navbar.vue'
+import HelloWorld from "./components/header.vue";
+import NavBar from "./components/navbar.vue";
 </script>
 
 <template>
@@ -8,6 +8,4 @@ import NavBar from './components/navbar.vue'
   <HelloWorld msg="Race To Future" />
 </template>
 
-<style>
-  
-</style>
+<style></style>
