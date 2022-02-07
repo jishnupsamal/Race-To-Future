@@ -1,7 +1,6 @@
-# Vue 3 + Vite
+# Race To Future
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+[![DeepSource](https://deepsource.io/gh/jishnu-prasad-s/Race-To-Future.svg/?label=active+issues&show_trend=true&token=VnMXjBCgdZudNV6hITM6oINV)](https://deepsource.io/gh/jishnu-prasad-s/Race-To-Future/?ref=repository-badge)
+[![DeepSource](https://deepsource.io/gh/jishnu-prasad-s/Race-To-Future.svg/?label=resolved+issues&show_trend=true&token=VnMXjBCgdZudNV6hITM6oINV)](https://deepsource.io/gh/jishnu-prasad-s/Race-To-Future/?ref=repository-badge)
 
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+### `Race To Future` is a website visualizing changes around the future world. 
