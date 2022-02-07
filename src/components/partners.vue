@@ -68,7 +68,7 @@
 
 <style scoped>
 img {
-    height: 4em;
+    height: 2em;
 }
 .uk-panel {
     padding: 2em 2em
