@@ -1,7 +1,7 @@
 <script setup>
-import HelloWorld from './components/header.vue'
-import NavBar from './components/navbar.vue'
-import Partners from './components/partners.vue'
+import HelloWorld from "./components/header.vue";
+import NavBar from "./components/navbar.vue";
+import Partners from "./components/partners.vue";
 </script>
 
 <template>
@@ -10,6 +10,4 @@ import Partners from './components/partners.vue'
   <Partners />
 </template>
 
-<style>
-  
-</style>
+<style></style>
