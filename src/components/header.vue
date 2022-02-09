@@ -2,13 +2,26 @@
 import { ref } from "vue";
 
 defineProps({
+  msg: String,
+});
+</script>
+
+<template>
+  <div class="bgimg uk-background-cover" uk-parallax="bgx: -50">
+    <h1 class="uk-heading-2xlarge uk-text-center head">{{ msg }}</h1>
+</script>
+
+<template>
+  <div class="bgimg uk-background-cover" uk-parallax="bgx: -50">
+    <h1 class="uk-heading-2xlarge uk-text-center head">{{ msg }}</h1>
+
   head: String,
 });
 AOS.init();
 </script>
 
 <template>
-  <div class="bgimg uk-background-cover" uk-parallax="bgx: -50">
+  <div class="bgimg uk-background-cover" uk-parallax="bgy: 0,400">
     <div class="cover uk-text-center">
       <h1 class="uk-heading-large head" data-aos="fade-up">{{ head }}</h1>
       <p class="text" data-aos="fade-down">
@@ -19,7 +32,6 @@ AOS.init();
 </template>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap&effect=3d-float");
 .head {
   font-family: "Supermercado One", cursive;
