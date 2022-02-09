@@ -1,4 +1,8 @@
 <template>
+  <div>
+    <h1 class="head uk-heading-medium">Our Partners</h1>
+  </div>
+
   <div
     class="uk-position-relative uk-visible-toggle uk-light"
     id="partners"
@@ -113,10 +117,24 @@
 <script setup></script>
 
 <style scoped>
-img {
-  height: 2em;
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+.partners {
+  margin: 0 1rem 0 1rem;
+  padding: 2rem 0.5rem 2rem 0.5rem;
 }
+
+img {
+  height: 4em;
+}
+
 .uk-panel {
   padding: 2em 2em;
+  height: 2em;
+}
+
+.head {
+  text-align: center;
+  font-family: "PT Sans", sans-serif;
 }
 </style>
