@@ -9,6 +9,11 @@ defineProps({
 <template>
   <div class="bgimg uk-background-cover" uk-parallax="bgx: -50">
     <h1 class="uk-heading-2xlarge uk-text-center head">{{ msg }}</h1>
+</script>
+
+<template>
+  <div class="bgimg uk-background-cover" uk-parallax="bgx: -50">
+    <h1 class="uk-heading-2xlarge uk-text-center head">{{ msg }}</h1>
 
   head: String,
 });
