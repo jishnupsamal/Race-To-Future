@@ -1,7 +1,7 @@
 <script setup>
-import HelloWorld from './components/header.vue';
-import NavBar from './components/navbar.vue';
-import Partners from './components/partners.vue';
+import HelloWorld from "./components/header.vue";
+import NavBar from "./components/navbar.vue";
+import Partners from "./components/partners.vue";
 import Footer from "./components/footer.vue";
 </script>
 
@@ -12,6 +12,4 @@ import Footer from "./components/footer.vue";
   <Footer />
 </template>
 
-<style>
-  
-</style>
+<style></style>
