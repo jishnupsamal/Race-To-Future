@@ -1,5 +1,8 @@
 <template>
-  <div class="uk-position-relative uk-visible-toggle uk-light" id="partners" tabindex="-1" uk-slider="autoplay:true; autoplay-interval: 3000; pause-on-hover: true">
+    <div>
+        <h1 class="head uk-heading-medium">Our Partners</h1>
+    </div>
+    <div class="uk-position-relative uk-visible-toggle uk-light" id="partners" tabindex="-1" uk-slider="autoplay:true; autoplay-interval: 3000; pause-on-hover: true">
 
     <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@m uk-grid">
         <li>
@@ -67,10 +70,16 @@
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
 img {
     height: 2em;
 }
 .uk-panel {
     padding: 2em 2em
+}
+
+.head {
+
 }
 </style>
