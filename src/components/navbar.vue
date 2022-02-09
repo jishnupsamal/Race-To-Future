@@ -11,7 +11,7 @@
                 <a class="nav-link" href="/">Home</a>
                 </li>&#160 &#160
                 <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#partners">Partners</a>
                 </li>
             </ul>
             </div>
