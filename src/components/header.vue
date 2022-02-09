@@ -8,7 +8,7 @@ AOS.init();
 </script>
 
 <template>
-<div class="bgimg uk-background-cover" uk-parallax="bgx: -50">
+<div class="bgimg uk-background-cover" uk-parallax="bgy: 0,400">
   <div class='cover uk-text-center'>
     <h1 class="uk-heading-large head" data-aos="fade-up">{{head}}</h1>
     <p class="text" data-aos="fade-down">Are you ready to experience the future?</p>

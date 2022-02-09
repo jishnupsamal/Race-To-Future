@@ -118,11 +118,10 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
 .partners {
     margin: 0 1rem 0 1rem;
-    padding: 2rem 1rem 2rem 1rem;
+    padding: 2rem 0.5rem 2rem 0.5rem;
 }
 
 img {
