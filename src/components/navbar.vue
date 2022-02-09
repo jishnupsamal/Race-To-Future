@@ -1,32 +1,22 @@
 <template>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand head" href="#">Race To Future</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarText"
-        aria-controls="navbarText"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        &nbsp &nbsp
-        <ul class="navbar-nav me-2 mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="/">Home</a>
-          </li>
-          &nbsp &nbsp
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand head" href="#">Race To Future</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText"> &#160
+            <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+                </li>&#160 &#160
+                <li class="nav-item">
+                <a class="nav-link" href="#partners">Partners</a>
+                </li>
+            </ul>
+            </div>
+            </div>
+    </nav>
 </template>
 
 <script>
