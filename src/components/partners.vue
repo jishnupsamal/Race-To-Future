@@ -1,6 +1,7 @@
 <template>
+<div class='partners'>
     <div>
-        <h1 class="head uk-heading-medium">Our Partners</h1>
+        <h1 class="head">Our Partners</h1>
     </div>
 
     <div
@@ -113,11 +114,16 @@
       uk-slider-item="next"
     ></a>
   </div>
+</div>
 </template>
-<script setup></script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+.partners {
+    margin: 0 1rem 0 1rem;
+    padding: 2rem 1rem 2rem 1rem;
+}
 
 img {
   height: 2em;
