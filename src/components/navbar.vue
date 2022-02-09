@@ -20,22 +20,19 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4&display=swap");
 .head {
-  font-family: 'Source Serif 4', sans-serif;
+  font-family: "Source Serif 4", sans-serif;
 }
 
-a.nav-link
-{
-    padding-left: 10em;
-    padding-right: 15em;
-    position: relative;
+a.nav-link {
+  padding-left: 10em;
+  padding-right: 15em;
+  position: relative;
 }
 
 a.nav-link:before {
@@ -45,7 +42,7 @@ a.nav-link:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #FFF;
+  background-color: #fff;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out;
