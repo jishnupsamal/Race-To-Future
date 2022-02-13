@@ -98,7 +98,7 @@ aside {
 }
 
 .heart {
-  animation: heart 3s 1s infinite;;
+  animation: heart 3s 1s infinite;
   color: #f72a2a;
   text-shadow: 2rem 2rem 2rem #121211;
 }
