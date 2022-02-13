@@ -88,11 +88,17 @@ aside {
   color: #575859;
 }
 
-.heart:hover {
-  transition-property: color;
-  transition-duration: 600ms;
-  transition-delay: 100ms;
-  transition-timing-function: ease-in-out;
+@keyframes heart {
+  0% {
+    color: #000;
+  }
+  100% {
+    color: #f72a2a;
+  }
+}
+
+.heart {
+  animation: heart 3s 1s infinite;;
   color: #f72a2a;
   text-shadow: 2rem 2rem 2rem #121211;
 }

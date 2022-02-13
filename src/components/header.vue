@@ -14,7 +14,14 @@ AOS.init();
       <p class="text" data-aos="fade-down">
         Are you ready to experience the future?
       </p>
+      <span class="material-icons arrow uk-text-center">
+        keyboard_double_arrow_down
+      </span>
     </div>
+    
+  </div>
+  <div>
+    
   </div>
 </template>
 
@@ -26,7 +33,7 @@ AOS.init();
 }
 
 .cover {
-  padding: 14em 5em 15.7em 5em;
+  padding: 9rem 5rem 6rem 5rem;
 }
 
 .bgimg {
@@ -38,5 +45,30 @@ AOS.init();
 .text {
   font-size: 2em;
   font-family: "Lora", serif;
+}
+
+@keyframes arrow {
+  0% {
+    color:#110a87;
+    top: 3rem;
+  }
+
+  50% {
+    color: #1e1ee3;
+    top: 1.5rem;
+  }
+
+  100% {
+    color: #00d4ff;
+    top: 0rem;
+  }
+}
+
+.arrow {
+  font-size: 5rem;
+  margin-top: 2rem;
+  padding-top: 3rem;
+  animation: arrow 2s ease-in infinite alternate-reverse;
+  position: relative;
 }
 </style>
