@@ -85,7 +85,7 @@ aside {
 
 .ctext {
   text-align: center;
-  color: rgba(5, 5, 5, 0.856);
+  color: #575859;
 }
 
 .heart:hover {
