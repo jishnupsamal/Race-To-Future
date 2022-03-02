@@ -8,7 +8,7 @@ AOS.init();
 </script>
 
 <template>
-  <div class="bgimg uk-background-cover" uk-parallax="bgy: 0,400">
+  <div class="bgimg uk-background-cover" uk-parallax="bgy: 0,200; bgx: 0,200">
     <div class="cover uk-text-center">
       <h1 class="uk-heading-large head" data-aos="fade-up">{{ head }}</h1>
       <p class="text" data-aos="fade-down">
@@ -37,7 +37,7 @@ AOS.init();
 }
 
 .bgimg {
-  background-image: url("https://images.unsplash.com/photo-1495366554757-8568e69d7f80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80");
+  background-image: url("https://images.pexels.com/photos/9934462/pexels-photo-9934462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   background-repeat: no-repeat;
   background-size: cover;
 }

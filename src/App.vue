@@ -9,8 +9,8 @@ import Content from "./components/content.vue";
 <template>
   <NavBar />
   <HelloWorld head="Race To Future" />
-  <Partners />
   <Content />
+  <Partners />
   <Footer />
 </template>
 
