@@ -18,11 +18,8 @@ AOS.init();
         keyboard_double_arrow_down
       </span>
     </div>
-    
   </div>
-  <div>
-    
-  </div>
+  <div></div>
 </template>
 
 <style scoped>
@@ -49,7 +46,7 @@ AOS.init();
 
 @keyframes arrow {
   0% {
-    color:#110a87;
+    color: #110a87;
     top: 3rem;
   }
 
