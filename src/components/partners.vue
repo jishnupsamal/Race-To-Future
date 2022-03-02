@@ -120,7 +120,6 @@
 </template>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 .partners {
