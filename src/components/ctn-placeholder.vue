@@ -3,6 +3,7 @@
     header: String,
     img: String,
     content: String,
+    alt: String,
     });
 </script>
 
@@ -10,7 +11,7 @@
     <div class="main">
         <h1>{{ header }}</h1>
         <div class="center">
-            <img :src="img" :class="align">
+            <img :src="img" :alt="alt">
             <p>{{ content }}</p>
         </div>
     </div>
