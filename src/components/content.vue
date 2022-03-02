@@ -6,25 +6,25 @@
     <div id="experience">
         <CtnPlc 
             header="Robotics" 
-            img="\src\assets\robotics.svg"
+            img="/src/assets/robotics.svg"
             content="Humanoids to do all your boring tasks..."
         />
 
         <CtnPlc 
             header="Artificial Intelligence" 
-            img="\src\assets\ai.svg"
+            img="/src/assets/ai.svg"
             content="Intelligent machines to help you in your homework..."
         />
 
         <CtnPlc 
             header="Science" 
-            img="\src\assets\science.svg"
+            img="/src/assets/science.svg"
             content="Advanced Science for the Humanity..."
         />
 
         <CtnPlc 
             header="Virtual Reality" 
-            img="\src\assets\vr.svg"
+            img="/src/assets/vr.svg"
             content="Experience the world at your home..."
         />
         <div class="pt1">
