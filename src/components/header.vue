@@ -8,14 +8,16 @@ AOS.init();
 </script>
 
 <template>
-  <div class="bgimg uk-background-cover" uk-parallax="bgy: 0,200; bgx: 0,200">
+  <div class="bgimg uk-background-cover" uk-parallax="bgy: 0,200; bgx: 0,300">
     <div class="cover uk-text-center">
       <h1 class="uk-heading-large head" data-aos="fade-up">{{ head }}</h1>
       <p class="text" data-aos="fade-down">
         Are you ready to experience the future?
       </p>
       <span class="material-icons arrow uk-text-center">
-        keyboard_double_arrow_down
+        <a href="#experience">
+          keyboard_double_arrow_down
+        </a>
       </span>
     </div>
     
@@ -33,7 +35,7 @@ AOS.init();
 }
 
 .cover {
-  padding: 9rem 5rem 6rem 5rem;
+  padding: 9rem 5rem 6.5rem 5rem;
 }
 
 .bgimg {

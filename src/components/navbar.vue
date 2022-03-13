@@ -8,7 +8,7 @@
             <div class="collapse navbar-collapse" id="navbarText"> &#160;
             <ul class="navbar-nav me-2 mb-2 mb-lg-0">
                 <li class="nav-item">
-                <a class="nav-link" href="/">Home</a>
+                <a class="nav-link" href="#">Home</a>
                 </li>&#160; &#160;
                 <li class="nav-item">
                 <a class="nav-link" href="#experience">Experience the Future</a>

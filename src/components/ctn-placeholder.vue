@@ -4,11 +4,12 @@
     img: String,
     content: String,
     alt: String,
+    fade: String,
     });
 </script>
 
 <template>
-    <div class="main">
+    <div class="main" :data-aos="fade">
         <h1>{{ header }}</h1>
         <div class="center">
             <img :src="img" :alt="alt">

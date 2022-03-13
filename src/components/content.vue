@@ -1,21 +1,26 @@
 <script setup>
     import CtnPlc from "./ctn-placeholder.vue";
+    AOS.init();
 </script>
 
 <template>
     <div id="experience">
+    
         <CtnPlc 
             header="Robotics" 
             img="/images/robotics.svg"
             content="Humanoids to do all your boring tasks..."
             alt='Robotics'
+            data-aos='fade-left'
         />
+        
 
         <CtnPlc 
             header="Artificial Intelligence" 
             img="/images/ai.svg"
             content="Intelligent machines to help you in your homework..."
             alt='Artificial Intelligence'
+            data-aos='fade-right'
         />
 
         <CtnPlc 
@@ -23,6 +28,7 @@
             img="/images/science.svg"
             content="Advanced Science for the Humanity..."
             alt="Science"
+            data-aos='fade-left'
         />
 
         <CtnPlc 
@@ -30,7 +36,9 @@
             img="/images/vr.svg"
             content="Experience the world at your home..."
             alt="Virtual Reality" 
+            data-aos='fade-right'
         />
+        
         <div class="pt1">
             <p>Explore</p>
             <p>Imagine</p>
