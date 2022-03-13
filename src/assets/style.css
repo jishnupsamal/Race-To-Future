@@ -12,4 +12,5 @@ body {
     background: -webkit-linear-gradient(90deg, rgba(255,124,0,1) 0%, rgba(235,153,11,1) 50%, rgba(246,239,7,1) 100%);
     background: linear-gradient(90deg, rgba(255,124,0,1) 0%, rgba(235,153,11,1) 50%, rgba(246,239,7,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff7c00",endColorstr="#f6ef07",GradientType=1);
+    overflow-x: hidden;
 }
