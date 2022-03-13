@@ -15,16 +15,11 @@ AOS.init();
         Are you ready to experience the future?
       </p>
       <span class="material-icons arrow uk-text-center">
-        <a href="#experience">
-          keyboard_double_arrow_down
-        </a>
+        <a href="#experience"> keyboard_double_arrow_down </a>
       </span>
     </div>
-    
   </div>
-  <div>
-    
-  </div>
+  <div></div>
 </template>
 
 <style scoped>
@@ -51,7 +46,7 @@ AOS.init();
 
 @keyframes arrow {
   0% {
-    color:#110a87;
+    color: #110a87;
     top: 3rem;
   }
 
