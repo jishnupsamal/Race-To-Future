@@ -5,8 +5,6 @@
             <input type="hidden" name="formto_googlesheets" :value=Email>
             <input type="hidden" name="formto_email" :value=Email>
             <input type="hidden" name="formto_slack" :value=Slack>
-            <input name="formto_redirect" type="hidden" value="Submitted">
-            <input name="formto_error" type="hidden" value="Error">
             
             <div class='row g-2'>
             <div class="form-floating mr col-lg-6 col-sm-12">
