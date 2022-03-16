@@ -1,5 +1,6 @@
 <script setup>
     import CtnPlc from "./ctn-placeholder.vue";
+    import Imagine from "./imagine.vue";
     AOS.init();
 </script>
 
@@ -38,7 +39,7 @@
             alt="Virtual Reality" 
             data-aos='fade-right'
         />
-        
+        <Imagine />
         <div class="pt1">
             <p>Explore</p>
             <p>Imagine</p>
