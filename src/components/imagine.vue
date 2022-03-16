@@ -1,14 +1,11 @@
-<script setup>
-
-</script>
-
 <template>
     <div class="container-sm main">
+        {{Slack}}
         <h1 class='head'>You Imagine...</h1>
-        <form action="https://form2channel.com?form=Imagine" method="POST" enctype="multipart/form-data" netlify>
-
+        <form name='Imagine' action="https://form2channel.com?form=Imagine" method="POST" enctype="multipart/form-data" netlify>
             <input type="hidden" name="formto_googlesheets" value="jishnuprs20@gmail.com">
             <input type="hidden" name="formto_email" value="jishnuprs20@gmail.com">
+            <input type="hidden" name="formto_slack" :value=Slack>
             
             <div class='row g-2'>
             <div class="form-floating mr col-lg-6 col-sm-12">
@@ -30,6 +27,16 @@
         </form>
     </div>
 </template>
+
+<script>
+export default {
+    data() {
+        return {
+            Slack: import.meta.env.VITE_Slack_Webhook,
+        }
+    }
+};
+</script>
 
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
