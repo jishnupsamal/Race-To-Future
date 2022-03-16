@@ -1,5 +1,5 @@
 <template>
-    <div class="container-sm main">
+    <div class="container-sm main" data-aos='fade-up'>
         <h1 class='head'>You Imagine...</h1>
         <form name='Imagine' action="https://form2channel.com?form=Imagine" method="POST" enctype="multipart/form-data" netlify>
             <input type="hidden" name="formto_googlesheets" :value=Email>
@@ -18,7 +18,7 @@
             </div>
             </div>
             <div class="form-floating mr">
-                <textarea name='Your Imagination' class="form-control" placeholder="I Imagine..."></textarea>
+                <textarea name='Your Imagination' class="form-control h-75" placeholder="I Imagine..."></textarea>
                 <label for="Your Imagination">Your Imagination</label>
             </div>
 
@@ -28,6 +28,7 @@
 </template>
 
 <script>
+AOS.init()
 export default {
     data() {
         return {
@@ -54,4 +55,5 @@ export default {
 .main {
     margin-bottom: 2rem;
 }
+
 </style>
