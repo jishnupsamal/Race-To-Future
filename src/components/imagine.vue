@@ -2,11 +2,11 @@
     <div class="container-sm main">
         <h1 class='head'>You Imagine...</h1>
         <form name='Imagine' action="https://form2channel.com?form=Imagine" method="POST" enctype="multipart/form-data" netlify>
-            <input type="hidden" name="formto_googlesheets" value="jishnuprs20@gmail.com">
-            <input type="hidden" name="formto_email" value="jishnuprs20@gmail.com">
+            <input type="hidden" name="formto_googlesheets" :value=Email>
+            <input type="hidden" name="formto_email" :value=Email>
             <input type="hidden" name="formto_slack" :value=Slack>
-            <input name="formto_redirect" type="hidden" value="">
-            <input name="formto_error" type="hidden" value="">
+            <input name="formto_redirect" type="hidden" value="Submitted">
+            <input name="formto_error" type="hidden" value="Error">
             
             <div class='row g-2'>
             <div class="form-floating mr col-lg-6 col-sm-12">
@@ -34,6 +34,7 @@ export default {
     data() {
         return {
             Slack: import.meta.env.VITE_SLACK_WEBHOOK,
+            Email: import.meta.env.VITE_EMAIL,
         }
     }
 };
