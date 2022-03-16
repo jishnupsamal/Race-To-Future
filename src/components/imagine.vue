@@ -1,11 +1,12 @@
 <template>
     <div class="container-sm main">
-        {{Slack}}
         <h1 class='head'>You Imagine...</h1>
         <form name='Imagine' action="https://form2channel.com?form=Imagine" method="POST" enctype="multipart/form-data" netlify>
             <input type="hidden" name="formto_googlesheets" value="jishnuprs20@gmail.com">
             <input type="hidden" name="formto_email" value="jishnuprs20@gmail.com">
             <input type="hidden" name="formto_slack" :value=Slack>
+            <input name="formto_redirect" type="hidden" value="">
+            <input name="formto_error" type="hidden" value="">
             
             <div class='row g-2'>
             <div class="form-floating mr col-lg-6 col-sm-12">
