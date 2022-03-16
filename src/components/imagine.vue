@@ -15,7 +15,7 @@
             </div>
 
             <div class="form-floating mr col-lg-6 col-sm-12">
-                <input type="text" name='Email' class="form-control" placeholder="john.doe@email.address">
+                <input type="email" name='Email' class="form-control" placeholder="john.doe@email.address">
                 <label for="Email">Email</label>
             </div>
             </div>
@@ -33,7 +33,7 @@
 export default {
     data() {
         return {
-            Slack: import.meta.env.VITE_Slack_Webhook,
+            Slack: import.meta.env.VITE_SLACK_WEBHOOK,
         }
     }
 };
